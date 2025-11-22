@@ -11,6 +11,8 @@ Drafting a formal legal reply based on the extracted details
 
 The entire solution is implemented using clean, modular, and fully self-contained Python code.
 
+
+
 📌 Features
 1️⃣ Email Analysis — analyze_email()
 
@@ -32,6 +34,8 @@ Any additional requested actions
 
 The extracted output strictly follows the schema provided in the assignment and is returned as a Python dictionary (JSON-serializable).
 
+
+
 2️⃣ Drafting a Legal Reply — draft_reply()
 
 This function uses the extracted information to generate a crisp and professional legal response. The reply:
@@ -46,6 +50,8 @@ Maintains an appropriate legal tone
 
 Suggests next steps or timelines
 
+
+
 📁 Repository Structure
 
 legal-email-assistant/
@@ -54,12 +60,16 @@ legal-email-assistant/
 │── sample_email.txt          # Optional sample email used for testing
 │── README.md                 # Project documentation
 
+
+
 ▶️ How to Run the Project
 🔧 Requirements
 
 Python 3.8+
 
 No external libraries required (standard library only)
+
+
 
 ▶️ Run the main program
 
@@ -70,6 +80,8 @@ This will automatically print:
 Extracted JSON output
 
 Professional legal reply email
+
+
 
 🧪 Example Output
 
@@ -83,6 +95,8 @@ Clear answers to each question in the original email
 
 (Exact outputs depend on the content of sample_email.txt.)
 
+
+
 🏗️ Implementation Approach
 
 Used Python’s built-in re (regex) module for robust pattern extraction
@@ -93,6 +107,8 @@ Ensured the output strictly adheres to the assignment’s required schema
 
 Maintained clear, professional formatting in the drafted email
 
+
+
 ✔️ Key Strengths of This Submission
 
 Fully working, clean, production-style Python code
@@ -102,6 +118,9 @@ No unnecessary complexity — easy for evaluators to read and test
 Professional email formatting that matches corporate legal standards
 
 Works for any email with similar structure
+
+
+
 
 📞 Contact
 
